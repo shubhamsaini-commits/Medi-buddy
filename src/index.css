@@ -1,0 +1,17 @@
+/* Example: Add this to src/index.css */
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #1B50D1;
+  --color-brand-bg-light: #F1F5FF;
+  --color-success-green: #15A030;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* *{
+  border: 1px solid red;
+} */
