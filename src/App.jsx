@@ -5,6 +5,7 @@ import Main from './components/Main/Main'
 import Output from './components/Output/Output'
 import Footer from './components/Footer/Footer'
 import About from './components/About/About'
+import FutureScope from './components/FutureScope/FutureScope';
 
 const App = () => {
   return (
@@ -16,6 +17,9 @@ const App = () => {
         <Routes>
           <Route path="/" element={<><Main /><Output /></>} />
           <Route path="/about" element={<About />} />
+          <Route path="/futurescope" element={<FutureScope/> } />
+
+
         </Routes>
 
         <Footer />

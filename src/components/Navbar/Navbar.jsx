@@ -2,10 +2,10 @@ import { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 
 
-const navLinks = ["Home", "Upload", "About"];
+const navLinks = ["Home", "Future Scope", "About"];
 const linkMap = {
   "Home" : "", 
-  "Upload": "#output-sec",
+  "Future Scope": "futurescope",
   "About" : "about"
 }
 
