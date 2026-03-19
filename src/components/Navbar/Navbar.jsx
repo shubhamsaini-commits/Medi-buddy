@@ -121,5 +121,5 @@ export default function Navbar() {
     </nav>
           // className="text-gray-700 hover:text-cyan-600 hover:bg-cyan-50 font-medium py-3 px-3 rounded-lg transition-all duration-200"
               // onClick={() => setMenuOpen(false)}
-  );
-}
+             // onClick={() => setMenuOpen(false)})
+        )}
